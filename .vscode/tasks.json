@@ -11,6 +11,7 @@
                 "${file}",
                 "-o",
                 "${fileDirname}/build/${fileBasenameNoExtension}.out",
+                "-lrt",
                 // "-I",
                 // "~/boost/include/",
                 // "-L",

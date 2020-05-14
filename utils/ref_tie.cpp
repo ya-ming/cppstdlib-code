@@ -18,7 +18,7 @@ int main()
   // extract second value into c (ignore first one)
   std::tie(std::ignore, a) = p;
 
-  std::cout << "a: " << i << std::endl;
+  std::cout << "a: " << a << std::endl;
 
   return 0;
 }
